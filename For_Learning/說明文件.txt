@@ -1,0 +1,36 @@
+ 使用語言 Python
+ 編輯器 PyChram
+ 使用到的模組 selenium,  requests
+ 
+前置作業:
+
+ 1.模組安裝方法:
+ -PyChram: 
+ *在IDE底下執行時
+	1.前往 File > Setting > Project:PyProject > Project Interpreter
+	2.點擊Package清單右側的 + 
+	3.搜尋selenium與requests
+	4.點擊左下角 Install Package
+
+ -命令提示字元:
+ *直接在命令提示字元底下執行時
+	1.Win: 
+		selenium: py -m pip install selenium
+		requests: py -m pip install requests
+	2.Mac:
+		selenium: python -m pip install selenium
+		requests: python -m pip install requests
+
+ 2.下載並安裝Webdriver
+ * ChromeDriver載點 https://chromedriver.chromium.org/downloads
+	1.確認電腦使用的Chrome版本，下載對應的ChromeDriver
+	2.將解壓縮的檔案放置python底下(如:\Python\Python38)
+
+ 各檔案功能說明:
+ * 底下有4支學習中編寫的程式
+	1.Extract_String.py：字串中擷取指定的範圍
+	2.Get_Select_Count.py:取得網頁中，下拉清單內的數量以及名稱
+	3.requests_SK_Exchange_Rate.py:抓取新光銀行的即時匯率，顯示指定地區的買進賣出匯率以及計算金額 (執行後需要進行一些操作)
+	4.Selenium_Search_Get_URL.py: 透過google搜尋網站，並取得第一個網站連結的URL
+
+ 	
